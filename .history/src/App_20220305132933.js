@@ -1,7 +1,7 @@
 import { init } from "./utils/initDroneLayer.js"
 import { useEffect } from "react"
 
-import {T, useSetLanguage, useCurrentLanguage } from "@tolgee/react"
+import {T, useSetLanguage, useCurrentLanguage } from "tolgee"
 
 function App() {
   useEffect(() => {
